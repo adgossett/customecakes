@@ -41,6 +41,9 @@ Copyright: ThemeMountain
 /*------------------------------------------------------------------
 [1. Typography]
 */
+.section-feature{
+background-image: url(../images/blackhistorymonth\ copy\ 2.png);
+}
 
 body{
 	font-family: 'Hind Madurai', 'Helvetica Neue', sans-serif;
@@ -127,7 +130,7 @@ h6{
 }
 .footer-light .widget-title, 
 .footer-light .widget-title a{
-	color: #212325;
+	color:#212325;;
 }
 .sidebar .widget-title, 
 .sidebar .widget-title a{
@@ -363,6 +366,7 @@ a[class*="icon-"]:hover{
 [2. Background Color & Color Classes]
 */
 
+
 body, 
 .content,
 .featured-media:after,
@@ -450,6 +454,8 @@ body,
 	background-color: #4e4e4d;
 	border-color: #4e4e4d;
 }
+
+
 .bkg-hover-grey:hover,
 .bkg-focus-grey:focus{
 	background-color: #4e4e4d;
@@ -470,10 +476,14 @@ body,
 }
 
 /* ash */
+
 .bkg-ash{
-	background-color: #343f44; 
-	border-color: #343f44;
+	background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
+
 .bkg-hover-ash:hover,
 .bkg-focus-ash:focus{
 	background-color: #404c52; 
@@ -542,9 +552,8 @@ body,
 }
 
 /* pink */
-.bkg-pink{
-	background-color: #f44c67;
-	border-color: #f44c67;
+.bkg-pink{background-color: #f44c67;
+    border-color: #f44c67;
 }
 .bkg-hover-pink:hover,
 .bkg-focus-pink:focus{
@@ -2534,7 +2543,7 @@ body,
 	background-repeat: repeat-x;
 }
 .fullscreen-pattern-5{
-	background-image: url(../images/generic/disc-pattern.png);
+	background-image:url(../images/generic/disc-pattern.png);
 	background-repeat: no-repeat;
 }
 
@@ -3670,7 +3679,7 @@ textarea.required-field{
 	z-index: 0;
 }
 .footer-light{
-	background: #fff;
+background-image: url(../images/P8footer.png);
 }
 .footer [class*="content-grid"]{
 	margin-left: -1.5rem;
